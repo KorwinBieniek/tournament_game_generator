@@ -90,5 +90,5 @@ def main():
     team_pairs = generate_first_round(teams)
     print_first_round(team_pairs)
 
-
-main()
+if __name__ == '__main__':
+    main()
